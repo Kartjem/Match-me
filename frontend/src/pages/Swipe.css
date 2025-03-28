@@ -1,0 +1,43 @@
+.swipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.swipe-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.like-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.nope-btn {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.like-btn:hover {
+    background-color: #66bb6a;
+}
+
+.nope-btn:hover {
+    background-color: #ef5350;
+}

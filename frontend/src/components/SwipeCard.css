@@ -1,0 +1,44 @@
+.swipe-card {
+    position: relative;
+    width: 300px;
+    max-width: 90vw;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swipe-card-img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.swipe-card-placeholder {
+    width: 100%;
+    height: 320px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 1.2rem;
+}
+
+.swipe-card-info {
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.swipe-card-info h2 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.swipe-card-info p {
+    margin: 0.25rem 0;
+}
