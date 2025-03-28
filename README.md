@@ -44,7 +44,7 @@ A recommendation application that connects users based on their interests, prefe
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://gitea.kood.tech/artjomkulikovski/match-me.git
+   git clone https://github.com/Kartjem/Match-me.git
    cd match-me/backend
    ```
 
